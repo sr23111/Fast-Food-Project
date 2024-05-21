@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "The Seasons";
+  src: url('Demo-The-Seasons/Demo_Fonts/Fontspring-DEMO-theseasons-reg.otf');
+  src: url('Demo-The-Seasons/Demo_Fonts/Fontspring-DEMO-theseasons-reg.otf') format('opentype');
+}
+*{
+  
+  font-family: 'The Seasons';
+}
+#mainContactPg{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#help{
+  color: #c61900;
+  padding-top: 10px;
+  font-style: italic;
+  font-weight: bold;
+}
+#contactPhoto{
+  width: 700px;
+}
+#socialMedia{
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.iconsText{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+.linkTo{
+  color: #c61900;
+}
+.icons{
+  width: 50px;
+}
+#email-container{
+  display: flex;
+}
+#btnCopy{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+#imgCopy{
+  width: 20px;
+}

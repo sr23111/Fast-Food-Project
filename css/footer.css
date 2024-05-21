@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "The Seasons";
+  src: url('Demo-The-Seasons/Demo_Fonts/Fontspring-DEMO-theseasons-reg.otf');
+  src: url('Demo-The-Seasons/Demo_Fonts/Fontspring-DEMO-theseasons-reg.otf') format('opentype');
+}
+*{
+  
+  font-family: 'The Seasons';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#TostiMap{
+  height: 150px;
+  width: 500px;
+}
+footer{
+  background-color: #000000db;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+#footer-rights{
+  font-family: 'Courier New', Courier, monospace;
+}
+#footerLogoimg{
+  
+  width: 350px;
+}
+#footer-upper{
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0;
+  margin: 0;
+}
+#footer-lower{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+#btnList{
+  top: 0%;
+}
+
+ul[title]::before {
+  content: attr(title);
+  display: block;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+#visitUs{
+  display: block;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+#linkedin{
+  color: white;
+}

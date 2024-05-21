@@ -1,0 +1,44 @@
+#textCointeiner{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#descriptionTOSTI{
+  font-weight: lighter;
+}
+#upperImagesCotainer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#bottomImagesCotainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.imagesAboutUsUp{
+  height: 400px;
+  width: 500px;
+}
+#storemiddle{
+  width: 700px;
+}
+.imagesAboutUs{
+  height: 400px;
+}
+#gyros{
+  padding-left: 5px;
+}
+#gyros, #chicken{
+  width: 300px;
+}
+#sausage{
+  width: 600px;
+}
+#pizzaImg{
+  width: 650px;
+}

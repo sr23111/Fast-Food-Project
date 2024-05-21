@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "The Seasons";
+  src: url('Demo-The-Seasons/Demo_Fonts/Fontspring-DEMO-theseasons-reg.otf');
+  src: url('Demo-The-Seasons/Demo_Fonts/Fontspring-DEMO-theseasons-reg.otf') format('opentype');
+}
+
+* {
+
+  font-family: 'The Seasons';
+}
+
+body {
+  margin: 0;
+}
+
+#site {
+  display: flex;
+  flex-direction: column;
+}
+
+#main {
+  background-color: #000000db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menuAndOrder {
+  padding: 25px 0;
+  display: flex;
+  justify-content: center;
+}
+
+#menuSect {
+  position: relative;
+}
+
+#menuSectimg {
+  width: 500px;
+  height: 500px;
+  margin-right: 30px;
+}
+
+.btnMenuOrder {
+  position: absolute;
+  bottom: 0%;
+  left: 100px;
+  transform: translate(-50%, -50%);
+  background-color: #FFB000;
+  height: 13%;
+  width: 120px;
+  border-radius: 50%;
+  color: rgb(235, 235, 235);
+  border: none;
+  cursor: pointer;
+  font-size: 23px;
+}
+
+#menuSectBtn:hover,
+#orderSectvidBtn:hover,
+#aboutUsSectBtn:hover {
+  background-color: #f5bf4a;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(73, 72, 72, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.19);
+}
+
+#orderSect {
+  display: flex;
+  position: relative;
+}
+
+#orderSectvidBtn {
+  padding: 0;
+  border: none;
+}
+
+#cashRegister {
+  width: 100px;
+}
+
+#orderSectvidBtn:hover {
+  cursor: pointer;
+}
+
+#orderSectvid {
+  width: 900px;
+  height: 500px;
+  margin: 0;
+}
+
+#aboutUsSect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+#storePhoto {
+  height: 500px;
+  width: 1425px;
+}
+
+#aboutUsSectBtn {
+  position: absolute;
+  bottom: 20px;
+  left: 150px;
+}
+/*@media screen and (min-width: 992px) {
+  #aboutUsSectBtn {
+    left: 10%;
+ }
+}*/
+/*@media screen and (max-width: 1920px) {
+  #aboutUsSectBtn {
+    left: 18%;
+ }
+}*/
+
